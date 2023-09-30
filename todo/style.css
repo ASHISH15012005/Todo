@@ -1,0 +1,33 @@
+
+  .container {
+    max-width: 400px;
+  }
+  input[type="text"],
+  input[type="text"]:focus {
+    color: rgb(0, 0, 0);
+    border: none;
+    background: rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+  }
+  .todos li {
+    background: #011403;
+  }
+  .delete {
+    cursor: pointer;
+  }
+  .filtered {
+    display: none !important;
+  }
+  h1{
+    color: rgb(21, 14, 14);
+  }
+  body{
+    background-image: url("./todo.avif");
+    background-position: center;
+  background-repeat: no-repeat; 
+  background-size: cover;
+  }
+  .description
+  {
+    color: rgb(13, 8, 3);
+  }
